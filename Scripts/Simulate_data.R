@@ -221,6 +221,16 @@ rs$date <- times
 rs$id <- "D"
 
 
+#### GENERATE SEPARATE METADATA FILE ####
+meta <- data.frame(id = c("A", "B", "C", "D"),
+                   collar1.on = paste(rep(times[1], 4)),
+                   collar1.off = paste(rep(times[length(times)], 4)),
+                   sex = c("Male", "Female", "Male", "Female"),
+                   age = rep("8mo", 4)
+                   )
+
+meta
+
 
 #### COMBINE AND SAVE ####
 # combine all simulated individuals into one object, view, and save; this object can be used to explore the "HR_dispersal.R" script for dispersal detection 
@@ -231,3 +241,4 @@ ggplot(sim.dat, aes(x = x, y = y, color = id)) + geom_path() +
   coord_fixed() + theme_bw()
 
 save(sim.dat, file = "simulated_movement_data.Rdata")
+save(meta, file = "simulated_metadata.Rdata")
