@@ -71,9 +71,6 @@ getmode <- function(v) {
 
 
 
-# function for quantifying coverage from a trajectory 
-source("Scripts/quant_coverage.R")
-
 # function for verifying and updating dispersal classifications interactively
 source("Scripts/verify_class.R")
 
@@ -538,20 +535,7 @@ for(i in 1:length(traj)){
 
   temp.full.out <- cbind(temp.full.out, temp.class.out)
   
-  
-  
-  
-  #### quantify telemetry coverage for focus individual ####
-  # quant <- quant_coverage(traj.data = traj[i],
-  #                         window1 = c("-04-01","-07-31"), # dates for spring dispersal window
-  #                         window2 = c("-09-01", "-12-31"), # dates for fall dispersal window
-  #                         years = c("2017", "2018", "2019", "2020", "2021"), # years to consider
-  #                         pts = 60 # min points to count as "adequate" coverage for a season
-  #                         )
-  
-  
-  # temp.full.out <- cbind(temp.full.out, quant)
-  
+
   
   
   # add this iteration's results to full output
