@@ -19,7 +19,7 @@ To demonstrate the functionality of the dispersal detection algorithm used in ou
 
 
 ## Potential dispersal drivers
-The following scripts use simulated data to demonstrate estimation of different variables of interest used in Gilbertson et al 2022. These include using hidden Markov models to simulate potential dispersal paths and calculate metrics of landscape "traversability", calculating proximity scores for neighboring individuals, and calculating the proportion of different habitat types in individuals' natal ranges. Because movement data used in the publication is not publicly available, we again include simulated data so users run all scripts themselves. 
+The following scripts use simulated data to demonstrate estimation of different variables of interest used in Gilbertson et al 2022. These include using hidden Markov models to simulate potential dispersal paths and calculate metrics of landscape "traversability", calculating proximity scores for neighboring individuals, and calculating the proportion of different habitat types in individuals' natal ranges. Because movement data used in the publication is not publicly available, we again include simulated data (in this case, within each demo script) so users run all scripts themselves. 
 
 ### Metric demo scripts
 
