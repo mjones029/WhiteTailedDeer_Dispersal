@@ -16,9 +16,16 @@ To demonstrate the functionality of the dispersal detection algorithm used in ou
 
 1. Simulate simple movement data with the script **Simulate_data.R**
 2. Detect dispersal events among trajectories using the script **HR_dispersal.R**. This script also estimates the timing of dispersal events. 
-3. Calculate "traversability" metrics using the script **Traversability.R**.
-4. Calculate Proximity scores using the script **ProxRate.R**
-5. Calculate proportion of different habitats in natal ranges using the script **InRange_cover.R**
+
+
+## Potential dispersal drivers
+The following scripts use simulated data to demonstrate estimation of different variables of interest used in Gilbertson et al 2022. These include using hidden Markov models to simulate potential dispersal paths and calculate metrics of landscape "traversability", calculating proximity scores for neighboring individuals, and calculating the proportion of different habitat types in individuals' natal ranges. Because movement data used in the publication is not publicly available, we again include simulated data so users run all scripts themselves. 
+
+### Metric demo scripts
+
+1. Calculate "traversability" metrics using the script **Traversability.R**.
+2. Calculate Proximity scores using the script **ProxRate.R**
+3. Calculate proportion of different habitats in natal ranges using the script **InRange_cover.R**
 
 *Additional code associated with this publication is forthcoming.*
 
