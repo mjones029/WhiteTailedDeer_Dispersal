@@ -100,7 +100,9 @@ source("Scripts/akde_poly.R")
 # we'll simulate 60 days of movement data, with locations taken every 4 hours (but this is an arbitrary choice)
 times <- seq(Sys.time(), Sys.time()+(60*24*60*60), by = (4*60*60))
 
+
 ## We'll simulate a few resident individuals with a simple BCRW directed toward the range center
+# we'll give these individuals coordinates in the Wisconsin Transverse Mercator system so we can assign a reasonable CRS when calculating aKDEs later
 
 # simulate and view trajectory for individual 1
 res1 <- BCRW_sim(n = length(times)-1, rho = 0.8, y0 = c(-10050000, 5325000), ya = c(-10050000, 5325000))
