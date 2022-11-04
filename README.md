@@ -16,7 +16,9 @@ To demonstrate the functionality of the dispersal detection algorithm used in ou
 
 1. Simulate simple movement data with the script **Simulate_data.R**
 2. Detect dispersal events among trajectories using the script **HR_dispersal.R**. This script also estimates the timing of dispersal events. 
-
+3. Calculate "traversability"" metrics using the script **Traversability.R**.
+4. Calculate Proximity scores using the script **ProxRate.R**
+5. Calculate proportion of different habitats in natal ranges using the script **InRange_cover.R**
 
 *Additional code associated with this publication is forthcoming.*
 
