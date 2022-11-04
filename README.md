@@ -27,5 +27,11 @@ The following scripts use simulated data to demonstrate estimation of different 
 2. Calculate Proximity scores using the script **ProxRate.R**
 3. Calculate proportion of different habitats in natal ranges using the script **InRange_cover.R**
 
-*Additional code associated with this publication is forthcoming.*
+
+## Integrated step selection analysis
+The below script demonstrates fitting an integrated step selection function (iSSF) with simulated dispersal data. We've included our approach for testing for avoidance of road crossings. Movement and landscape data are simulated with the script. 
+
+### iSSF demo script
+
+1. Simulate data and estimate iSSF with the script **SSF_dispersal.R**
 
