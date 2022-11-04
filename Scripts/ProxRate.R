@@ -25,7 +25,7 @@ library(wildlifeDI)
 library(plyr)
 library(dplyr)
 library(ggplot2)
-
+library(lubridate)
 
 #### LOAD FUNCTIONS ####
 ## NOTE: BCRW_sim() and w.circ.mean() functions are for simulating a biased correlated random walk

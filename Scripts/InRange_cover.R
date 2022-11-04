@@ -29,7 +29,7 @@ library(rgdal)
 library(move)
 library(ctmm)
 library(ggplot2)
-
+library(lubridate)
 
 
 #### LOAD FUNCTIONS ####

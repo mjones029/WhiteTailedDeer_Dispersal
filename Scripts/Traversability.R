@@ -31,7 +31,7 @@ library(rgeos)
 library(sp)
 library(raster)
 library(amt)
-
+library(lubridate)
 
 #### LOAD FUNCTIONS ####
 ## NOTE: BCRW_sim() and w.circ.mean() functions are for simulating a biased correlated random walk
